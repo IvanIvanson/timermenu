@@ -18,9 +18,32 @@ function draw() {
        
 
 }
-draw();
+// draw();
 // let myModal = new bootstrap.Modal(document.getElementById("exampleModal"), {
 //   keyboard: false,
 // });
 
+const renderPage2 = function() {
+  let container = document.querySelector('.container');
+  container.innerHTML = ` 
+  <div class="row justify-content-lg-center">
+        <div class="col col-lg-12">
+  <h1>Station list</h1>
+                     <div id="block" class="canvas-img text-start">
+                    <!-- <canvas class="img-fluid" id="canvas"></canvas> -->
+                </div>
+                 <button class="home">Назад</button> 
+                 </div>
+                 </div>
+                `;
+  let returnHome = document.querySelector(".home");
+  returnHome.addEventListener("click", function () {
+    location.reload();
+  });
+  document.querySelector(".modal").setAttribute("aria-hidden", "false");
+  
+}
 
+
+ 
+export default renderPage2;

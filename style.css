@@ -1,11 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Inter:wght@100;200;300;400&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@300&family=Mulish:wght@200&family=Open+Sans:wght@300&family=Playfair+Display&family=Raleway:wght@500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap");
-body {
+h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: white;
+}
+
+.canvas-img {
+  width: 100%;
+  color: white;
+  border: solid green;
+  margin-top: 0px;
+  padding-bottom: 0;
+}
+
+html, body {
   width: 100vw;
   height: 100%;
   background: radial-gradient(85.28% 85.28% at 53.2% 30.05%, #1ABB9C 0%, #5F1854 100%);
 }
 
-body .block-menu {
+html .block-menu, body .block-menu {
   position: absolute;
   background: radial-gradient(85.28% 85.28% at 53.2% 30.05%, #1ABB9C 0%, #5F1854 100%);
   display: -webkit-box;
@@ -30,7 +44,7 @@ body .block-menu {
   opacity: 0.9;
 }
 
-body .block-menu ul {
+html .block-menu ul, body .block-menu ul {
   margin: 0;
   list-style: none;
   color: #3B0944;
@@ -41,17 +55,17 @@ body .block-menu ul {
   line-height: 49px;
 }
 
-body .block-menu ul li {
+html .block-menu ul li, body .block-menu ul li {
   text-shadow: -1px 0 1px #1ABB9C;
   text-decoration: underline;
 }
 
-body .block-menu ul li:hover {
+html .block-menu ul li:hover, body .block-menu ul li:hover {
   color: #fff;
   cursor: pointer;
 }
 
-body .menu-open {
+html .menu-open, body .menu-open {
   left: 0;
 }
 
@@ -125,48 +139,9 @@ body .menu-open {
 }
 
 .container .img-humans {
-  margin-top: 20px;
-  width: 160px;
-  height: 200px;
-}
-
-.container-canvas {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.container-canvas .row {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
-.container-canvas .row .col-canvas {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.container-canvas .row .col-canvas .canvas-img {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
-.container-canvas .row .col-canvas .canvas-img canvas {
-  width: 100%;
-  display: block;
-  height: 80vh;
-  border: solid green;
+  margin-top: 0px;
+  width: 180px;
+  height: 220px;
 }
 
 @media (max-width: 470px) {
