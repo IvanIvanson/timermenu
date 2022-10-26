@@ -139,17 +139,84 @@ html .menu-open, body .menu-open {
 }
 
 .container .humans-block {
+  position: relative;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   max-width: 320px;
+  height: 200px;
   margin: 0 auto;
 }
 
 .container .humans-block .img-humans {
+  display: block;
+  position: absolute;
   margin-top: 0px;
   width: 160px;
-  height: 200px;
+  height: 180px;
+}
+
+.container .humans-block .img-humans:nth-child(2) {
+  left: 140px;
+}
+
+.container .humans-block .img-humans:nth-child(3) {
+  left: 190px;
+}
+
+@-webkit-keyframes animate1 {
+  0% {
+    left: -270px;
+  }
+  100% {
+    left: 300px;
+  }
+}
+
+@keyframes animate1 {
+  0% {
+    left: -270px;
+  }
+  100% {
+    left: 300px;
+  }
+}
+
+@-webkit-keyframes animate2 {
+  0% {
+    left: -170px;
+  }
+  100% {
+    left: 300px;
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    left: -170px;
+  }
+  100% {
+    left: 300px;
+  }
+}
+
+@-webkit-keyframes animate3 {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: 300px;
+  }
+}
+
+@keyframes animate3 {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: 300px;
+  }
 }
 
 @media (max-width: 470px) {

@@ -11,6 +11,8 @@ const renderPage1 = function () {
             <div class="humans-block">
             <img class="img-humans img-fluid" src="./image/humans.png" alt="humans">
             <img class="img-humans img-fluid" src="./image/humans.png" alt="humans">
+            <img class="img-humans img-fluid" src="./image/humans.png" alt="humans">
+
             </div>
         
         </div>
