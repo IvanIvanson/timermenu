@@ -95,7 +95,8 @@ html .menu-open, body .menu-open {
 }
 
 .container {
-  padding-top: 18px;
+  height: 100%;
+  padding-top: 0px;
 }
 
 .container .img-train {

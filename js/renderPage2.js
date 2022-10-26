@@ -25,7 +25,7 @@ function draw() {
 
 const renderPage2 = function () {
  
-  let container = document.querySelector(".container");
+  let container = document.querySelector(".wrapper");
   container.innerHTML = ` 
   <div class="row justify-content-lg-center">
         <div class="col col-lg-12">

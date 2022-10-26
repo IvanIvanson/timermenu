@@ -3,11 +3,15 @@ import renderPage2 from "./renderPage2.js";
 import openNav from "./openNav.js";
 import selectStation from "./selectStation.js";
 import renderModal from "./renderModal.js";
+import renderNavbar from "./renderNavbar.js";
 import {stationBlueBranch} from "./station.js";
-import {stationGreenBranch} from "./station.js";
+import { stationGreenBranch } from "./station.js";
 
+// navbar
+renderNavbar();
 // nav menu
 openNav();
+
 // renderPage1
 renderPage1();
 // renderModal
