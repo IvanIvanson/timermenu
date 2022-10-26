@@ -125,51 +125,53 @@ img{
       display: flex;
       max-width: 320px;
       height: 200px;
-      margin: 0 auto;
+      margin: 20px auto;
    //   border: solid red;
       .img-humans{
          display: block;
          position: absolute;
    margin-top: 0px;
    width: 160px;
-   height: 180px;
+   height: 160px;
 }
 .img-humans:nth-child(1){
-   // animation: animate1 10s  ease-in-out infinite;
-
+   animation: animate1 25s  ease-in-out infinite;
+left: -200px;
 }
 .img-humans:nth-child(2){
-left: 140px;
-   // animation: animate2 8s  ease-in-out infinite;
+left: -200px;
 
+   animation: animate2 20s  ease-in-out infinite;
+animation-delay: 5s;
 }
 .img-humans:nth-child(3){
-left: 190px;
-   // animation: animate3 7s  ease-in-out infinite;
+left: -200px;
 
+   animation: animate3  15s  ease-in-out infinite;
+animation-delay: 10s;
 }
 @keyframes animate1 {
    0%{
-      left: -270px;
+      left: -200px;
    }
    100%{
-      left: 300px;
+      left: 330px;
    }
 }
 @keyframes animate2 {
    0%{
-    left: -170px;
+    left: -200px;
    }
    100%{
-   left: 300px;
+   left: 330px;
    }
 }
 @keyframes animate3 {
    0%{
-    left: -100px;
+    left: -200px;
    }
    100%{
-   left: 300px;
+   left: 330px;
    }
 }
    }
