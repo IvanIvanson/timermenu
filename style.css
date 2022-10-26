@@ -29,9 +29,9 @@ html .block-menu, body .block-menu {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -46,6 +46,7 @@ html .block-menu, body .block-menu {
 
 html .block-menu ul, body .block-menu ul {
   margin: 0;
+  padding-top: 100px;
   list-style: none;
   color: #3B0944;
   font-family: 'Inter', sans-serif;

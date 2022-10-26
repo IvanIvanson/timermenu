@@ -22,7 +22,7 @@ html,body{
    background: $cartBg;
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: center;
 width: 100vw;
 height: 100%;
@@ -35,6 +35,7 @@ background-color: transparent;
 opacity: 0.9;
 ul{
    margin: 0;
+   padding-top: 100px;
    list-style: none;
    color:$mainColor1;
    font-family: 'Inter', sans-serif;
