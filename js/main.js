@@ -4,9 +4,12 @@ import openNav from "./openNav.js";
 import selectStation from "./selectStation.js";
 import renderModal from "./renderModal.js";
 import renderNavbar from "./renderNavbar.js";
+import menuOpenList from "./menuOpenList.js";
 import {stationBlueBranch} from "./station.js";
 import { stationGreenBranch } from "./station.js";
 
+// menu list
+menuOpenList();
 // navbar
 renderNavbar();
 // nav menu
@@ -29,7 +32,7 @@ document.querySelector("#add_btn").addEventListener("click", function () {
     // a.setAttribute("href", "./station.html");
      
     renderPage2();
-   Swal.close();
+   
 // --------
     let block = document.getElementById("block");
     let ul = document.createElement('ul');
@@ -49,12 +52,15 @@ document.querySelector("#add_btn").addEventListener("click", function () {
     };
   
 // --------
+   
+// --------
 
   } else {
     Swal.fire({
       icon: "error",
       title: "ошибка",
       text: "пожалуйста заполните все поля!",
+      timer: 3000
     });
   }
 });
