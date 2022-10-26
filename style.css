@@ -138,10 +138,18 @@ html .menu-open, body .menu-open {
   padding-bottom: 8px;
 }
 
-.container .img-humans {
+.container .humans-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.container .humans-block .img-humans {
   margin-top: 0px;
-  width: 180px;
-  height: 220px;
+  width: 160px;
+  height: 200px;
 }
 
 @media (max-width: 470px) {

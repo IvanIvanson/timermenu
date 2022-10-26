@@ -87,7 +87,7 @@ text-shadow: 1px 1px 1px #3B0944;
 }
 // main
 .container{
-  
+ 
    padding-top: 18px;
    .img-train{
       width: 120px;
@@ -119,11 +119,18 @@ img{
    padding-bottom: 8px;
 }
    }
-.img-humans{
+   .humans-block{
+      display: flex;
+      max-width: 320px;
+      margin: 0 auto;
+     
+      .img-humans{
    margin-top: 0px;
-   width: 180px;
-   height: 220px;
+   width: 160px;
+   height: 200px;
 }
+   }
+
 }
 
 
