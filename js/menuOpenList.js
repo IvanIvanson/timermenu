@@ -13,8 +13,7 @@ const menuOpenList = function () {
       sheme() {
           Swal.fire({
             title: "Sheme metro",
-            // imageUrl: "/image/sheme.png",
-              background: 'url(/image/sheme.png)',
+            imageUrl: "/image/sheme.png",
             imageWidth: 300,
             imageHeight: 350,
             timer: 10000,
