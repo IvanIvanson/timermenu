@@ -155,7 +155,7 @@ html .menu-open, body .menu-open {
   position: absolute;
   margin-top: 0px;
   width: 160px;
-  height: 160px;
+  height: 180px;
 }
 
 .container .humans-block .img-humans:nth-child(1) {
